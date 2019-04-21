@@ -11,13 +11,13 @@
 | UploadBatch | 이미지 체크 이동	| .NET 4.0	| UploadBatch.exe 1.0.0.0 |
 
 ## 2. UploadBatch 정보 및 참조
-- SEED 암/복호화 모듈 ECB/CBC MODE
-- CryptoNetCom.dll 1.0.0.0
-- System.EnterpriseServices
+- System.IO.SearchOption
+- System.IO.DirectoryInfo
+- System.IO.FileInfo
+- System.IO.Path
 
 ## 3. UploadBatch 사용 정보
-* IIS Log : C:\inetpub\logs\LogFiles\W3SVC2
-* UploadBatch.exe 실행 > IIS Log 파일 지정 > 검색 데이터 지정 후 검색 실행 > LogView 확인
+* UploadBatch.exe Task Scheduler 등록
 
 * 4. upf.config 설정 :
 ```
