@@ -19,7 +19,7 @@
 ## 3. UploadBatch 사용 정보
 * UploadBatch.exe Task Scheduler 등록
 
-* 4. upf.config 설정 :
+* upf.config 설정 :
 ```
 	<dir>D:\ImgDir\TargetDir\</dir> 
 	<nas_dir>\\mynas.flux.com\image\TargetDir\</nas_dir>
